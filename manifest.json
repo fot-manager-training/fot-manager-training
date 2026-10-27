@@ -1,0 +1,880 @@
+{
+  "release": "cloud-47-20261027",
+  "source_commit": "0350150c4a0037bf8540164ac71eb9d7cfb1a5d9",
+  "cloud_origin": "https://fot-practice-km.c8cpv86h5k.chatgpt.site",
+  "target_origin": "https://fot-manager-training.ru",
+  "files": [
+    {
+      "path": "app.js",
+      "sha256": "ba513355be4f204bc9908cd12b0f5292adc47105bb8ea78d5f33b2c4118186b1",
+      "size": 14601
+    },
+    {
+      "path": "assets/BufferGeometryUtils.js",
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751",
+      "size": 35539
+    },
+    {
+      "path": "assets/GLTFLoader.js",
+      "sha256": "adbbafe8ce40416525b6be0ee5cac0d3782482bcf0122c8ca8ec1ffa77d3440b",
+      "size": 114732
+    },
+    {
+      "path": "assets/Oswald-OFL.txt",
+      "sha256": "0687c51a3126ae6963389181135a2eaea02f2e88f31230d27409952f28e84da5",
+      "size": 4390
+    },
+    {
+      "path": "assets/actor-accounting.webp",
+      "sha256": "e61604d0a0d92da1f330e96b00da28cb6724a77a046e25b2f48a421c1404aca6",
+      "size": 103220
+    },
+    {
+      "path": "assets/actor-finance.webp",
+      "sha256": "1765f34817d7c3c6385a827156d5e23e9af760fcacbfa133fd16551d31f764b3",
+      "size": 80360
+    },
+    {
+      "path": "assets/actor-hr.webp",
+      "sha256": "0c39886b1c0cc24e9e72f53a408bd8751c327eaeffbc9e9a4eecddf5efc52d56",
+      "size": 101452
+    },
+    {
+      "path": "assets/actor-operations.webp",
+      "sha256": "65f71cd28fabb491ecd9e0e9131b4e522dfd047c21c724522d5fd8ede09f537f",
+      "size": 87318
+    },
+    {
+      "path": "assets/audio/story-kksb.mp3",
+      "sha256": "ee2f45a7b3aab80b1474696f7f5ad2b803a76a5336d882380968d306f1a7294a",
+      "size": 357408
+    },
+    {
+      "path": "assets/audio/story-mmb.mp3",
+      "sha256": "ac75324a020dac389eb474d79c8dcf92dab0044082c420237167bbc507a5ddfc",
+      "size": 266976
+    },
+    {
+      "path": "assets/audio/story-rgs.mp3",
+      "sha256": "6510473591c07849cef89cb088d079358b93a47f0cbb4bdd6eb5702fe299242f",
+      "size": 301680
+    },
+    {
+      "path": "assets/avatar-poster.png",
+      "sha256": "2f048b54260e4802189c6f9a13bfe1e1f807a9664f9ed57f18a97f6e0c7cb7ed",
+      "size": 243820
+    },
+    {
+      "path": "assets/avatar.glb",
+      "sha256": "7a87e15a99ccbc5e5877be66e1e4ecae0a581adcafa0cce1a5569f49909e968e",
+      "size": 3276888
+    },
+    {
+      "path": "assets/case-01.jpg",
+      "sha256": "770183c96d63dda2a89e8f43d09b70077988fe607363b38bdd389dadc0cd5bca",
+      "size": 413635
+    },
+    {
+      "path": "assets/case-02.jpg",
+      "sha256": "3a597b7acb427e014b55b0d2e6f4c86cd2aa6914651254e4d236ba826ddd6152",
+      "size": 337707
+    },
+    {
+      "path": "assets/case-03.jpg",
+      "sha256": "b9f7e8c81a266abe9987d16ddfd57af6fa913874b1afd0afac172b35647f0eaf",
+      "size": 427389
+    },
+    {
+      "path": "assets/case-04.jpg",
+      "sha256": "c6a9dcdd632e5da92e66f44b47bb132822e0c6968a992331777e9bbd83ba34db",
+      "size": 308652
+    },
+    {
+      "path": "assets/case-05.jpg",
+      "sha256": "37d4ee845c694cc7c631af1bddf9178ede0b0d25f5ddfabf76fb543a739b190b",
+      "size": 378638
+    },
+    {
+      "path": "assets/case-06.jpg",
+      "sha256": "a0c5b888c35d2b3c6f8dbf82a039bf364098994755025d9bd9ed57bad75719bc",
+      "size": 281851
+    },
+    {
+      "path": "assets/display-1.woff2",
+      "sha256": "92867238f947d9b25b2d22c0ef38916e10824f5482f6ba078190738e392c1246",
+      "size": 6752
+    },
+    {
+      "path": "assets/display-2.woff2",
+      "sha256": "aae665c75af89ea7cb7d8ccc8b0911ea72267442ebcd84f6e3efa041ad3b3c16",
+      "size": 12672
+    },
+    {
+      "path": "assets/env-call.jpg",
+      "sha256": "4c66ba0da5528c66301e1da2dd0e9d6eaba10ea4e57a60865c42a6a721de6fc0",
+      "size": 285195
+    },
+    {
+      "path": "assets/env-campus.jpg",
+      "sha256": "f986cc5d0d75dc5b06afad8d9123e38653b908b41564e20b582b895fc7ded6ee",
+      "size": 445819
+    },
+    {
+      "path": "assets/env-desk.jpg",
+      "sha256": "63c09ddbf594a3404b5a7da11a40c519b9ac48d521150c7064de51fe18341c01",
+      "size": 318125
+    },
+    {
+      "path": "assets/env-hr.jpg",
+      "sha256": "a5c300a768d169842bea360ed2a5d45997b3546a63c9007401d4237f7977d8ba",
+      "size": 298090
+    },
+    {
+      "path": "assets/env-meeting.jpg",
+      "sha256": "85a01023d7936b206d8961f95831635333776ca0e55614ac67e68f296ea47383",
+      "size": 268732
+    },
+    {
+      "path": "assets/env-operations.jpg",
+      "sha256": "5868a3d7f7a9cae96e502b0459498d00ee6ea0833785ae4f6b113b5ea2dc8261",
+      "size": 309442
+    },
+    {
+      "path": "assets/eve.glb",
+      "sha256": "96ce491642c0986f97cebc5bf1ee7cd5cc1f6713064e2144b6b79ef71201c0d4",
+      "size": 1234532
+    },
+    {
+      "path": "assets/feedback/polly-qr.svg",
+      "sha256": "37c75f02effc28214f65bdcdccfd1efb047ed82a4751d36c449a6da461bdcab5",
+      "size": 10995
+    },
+    {
+      "path": "assets/fox-poster.png",
+      "sha256": "a73751d2c6356cdbb6f79e3af6c539375db18116fd72b00740fe6a00069ec114",
+      "size": 55547
+    },
+    {
+      "path": "assets/kksb-agreements.webp",
+      "sha256": "f2a8ab165146d7a8c721949841cfa631f3f76f94c32619d5d1d86fe968c95ae7",
+      "size": 191040
+    },
+    {
+      "path": "assets/kksb-meeting.webp",
+      "sha256": "393184eba419943688f5dd573bf6f31e659da3e812d9d519f00d90579454acce",
+      "size": 199176
+    },
+    {
+      "path": "assets/kksb-preparation.webp",
+      "sha256": "1d0d6775440251a124d714d32cd160af8a98969219a88d4d9c2b2bf1f53d4cf6",
+      "size": 213080
+    },
+    {
+      "path": "assets/lisa-icon.webp",
+      "sha256": "29b4399b5ac206bcd8251941ce08ed76458c5c84cdb026678eeb09099cd8a758",
+      "size": 57294
+    },
+    {
+      "path": "assets/manrope-0.woff2",
+      "sha256": "30c051f0b547252670ef3a41213ec8134db1373edf621187d97ed546f9959605",
+      "size": 94872
+    },
+    {
+      "path": "assets/manrope-1.woff2",
+      "sha256": "8acf416c55ae37360161a6e84fd91489b3211ffe550ba17df750e28d0685bb93",
+      "size": 94880
+    },
+    {
+      "path": "assets/manrope-2.woff2",
+      "sha256": "a13d9b41b0a471ce58f0e46d377fa3cc76615e4632c3b15eb397caadf7a13f0a",
+      "size": 94972
+    },
+    {
+      "path": "assets/manrope-3.woff2",
+      "sha256": "f433e5d333be1128d8ec8a28b8aadd0314d10e14e4105406076666bc830fc15d",
+      "size": 95060
+    },
+    {
+      "path": "assets/manrope-4.woff2",
+      "sha256": "6bad1a774228464cc88b8b0271555b266f7a3c64a7bedf15e165fdab4f6ac0ce",
+      "size": 95096
+    },
+    {
+      "path": "assets/manrope-5.woff2",
+      "sha256": "b9584e099e0e7f1e1e914c3037aabb9010c50346a3ce8df5eeeeecc0563044d8",
+      "size": 94928
+    },
+    {
+      "path": "assets/manrope-6.woff2",
+      "sha256": "b8f802f05b322a7345805f5b89f8bb976604cc719a91530918d5ce3c47160950",
+      "size": 95688
+    },
+    {
+      "path": "assets/materials/bank-comparison.pdf",
+      "sha256": "042befa53c4f2004bd7594da880282efd8296efb8a1661fc841ab727e8524e80",
+      "size": 1913274
+    },
+    {
+      "path": "assets/materials/bank-comparison.webp",
+      "sha256": "aae7b86c3c76ccda9ac514849a246fff370571cb4d9fb877306c847fb407fe43",
+      "size": 53994
+    },
+    {
+      "path": "assets/materials/kksb-memory-3.png",
+      "sha256": "ac9f0cc96bbbd9ec02ca81d6f270d5c97bc2982734c15cbc7ff03145253562f5",
+      "size": 356654
+    },
+    {
+      "path": "assets/materials/kksb-memory-4.png",
+      "sha256": "9c6fc9537f640fd11157c8d9bc8cf4c7db54cff978bbbcbe4f0851bd319d4b82",
+      "size": 212254
+    },
+    {
+      "path": "assets/materials/kksb-memory-5.png",
+      "sha256": "b796732b11af7f22bbe8fbdf27df341de0cec6a9fbd75201f53a18213f917ef2",
+      "size": 188977
+    },
+    {
+      "path": "assets/materials/kksb-memory-6.png",
+      "sha256": "35f2630dd82aa8b1cf8e0ae390df8b04390f123a5455f6b8b26d213148ea4224",
+      "size": 292446
+    },
+    {
+      "path": "assets/materials/kksb-memory-7.png",
+      "sha256": "ee7800868ff99a45a73863ed534ebef93f1723c13dbbde8b545b6a96631c7a13",
+      "size": 393258
+    },
+    {
+      "path": "assets/materials/payroll-conditions.pdf",
+      "sha256": "b37ec410d04deee7dff1c6827aed176e295c16a4097e0a2afd40f9e11240b57a",
+      "size": 6648749
+    },
+    {
+      "path": "assets/materials/payroll-conditions.webp",
+      "sha256": "8550a3cf91786e932843170e10a089a3d44981330c73cdc34355583df6c0839d",
+      "size": 48680
+    },
+    {
+      "path": "assets/meshopt_decoder.module.js",
+      "sha256": "784315b6959c85459eab77f51776158cc381d7e7d77b919ff7c4935f088a7c5c",
+      "size": 24848
+    },
+    {
+      "path": "assets/novel-01.jpg",
+      "sha256": "f0f3078d8384c77a8e0c70e75e9cad603fe526263ce5230d78bbd1403978f9b3",
+      "size": 335929
+    },
+    {
+      "path": "assets/novel-02.jpg",
+      "sha256": "3b95b49b2e52f73edb304bbd5aa1c021c72a9d133d345c1502d94df3ce572e4b",
+      "size": 322032
+    },
+    {
+      "path": "assets/novel-03.jpg",
+      "sha256": "92912f7906ea3271f15c4062e916d1e84f9b94f6393ef342d54fe573bcd1bde4",
+      "size": 320018
+    },
+    {
+      "path": "assets/novel-04.jpg",
+      "sha256": "7a33d94f7c42071d02bb161f1d6aae26aeecec413cf76ecc806abf6758bbd4c2",
+      "size": 332544
+    },
+    {
+      "path": "assets/novel-05.jpg",
+      "sha256": "fc5c4f37287da9924188a18b72506dcb785e4d93b5289fec1634756f53bcc851",
+      "size": 359852
+    },
+    {
+      "path": "assets/novel-06.jpg",
+      "sha256": "d8189dac1594e88f6449cf949bce4bf3a817eb12fc3cfa4e6f96e539f7a1d0f9",
+      "size": 291584
+    },
+    {
+      "path": "assets/three.core.js",
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "size": 1403455
+    },
+    {
+      "path": "assets/three.module.js",
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+      "size": 603113
+    },
+    {
+      "path": "avatar.js",
+      "sha256": "9288da52cbd0b4231394797c957119744a3bb9d603e7be148864fe98c7cc72c5",
+      "size": 6991
+    },
+    {
+      "path": "business-cases.js",
+      "sha256": "dfbf4eebc4694777bda8d30bc4519de5fa8a06a72c75698d0a141e16f9f9ee14",
+      "size": 169995
+    },
+    {
+      "path": "business-data.js",
+      "sha256": "1fb74a06e6187abcccb9e3805b3f5f06ca3e48df03791a3163e01af374712f95",
+      "size": 3042
+    },
+    {
+      "path": "business-extras.js",
+      "sha256": "e9e3e6c14840b1be3d50fe58a1d17ba4263236997e4c4f30e3251cf1329952de",
+      "size": 8107
+    },
+    {
+      "path": "business-game.js",
+      "sha256": "a05cedccd2a87da0eaa3e7d0b433b2fc477f9d42e5df44f0dc1097ca77dff4e5",
+      "size": 34556
+    },
+    {
+      "path": "cases/01/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "cases/02/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "cases/03/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "cases/04/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "cases/05/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "cases/06/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "cases/kksb/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "cases/mmb/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "cases/rgs/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "completion.js",
+      "sha256": "eaf2cec4ecfc70270ab38c25f601836fbd9e960e3d56166c4753043189e7f791",
+      "size": 6190
+    },
+    {
+      "path": "entry.js",
+      "sha256": "2560dbb12ce5e11f69a6711948af79b4bb4b41643897a645a27afcdbbed3b9ba",
+      "size": 476
+    },
+    {
+      "path": "final/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "fonts.css",
+      "sha256": "0e8702d97c0ca2f1e7f25ede8c19ab93de59d63318427db51438e611d2c31f2f",
+      "size": 1127
+    },
+    {
+      "path": "fox-character.js",
+      "sha256": "c7e97c144ff6ce26b7ab6f2c1b9a3a0c97059c792e2c50244d3a38bcb491ee5f",
+      "size": 14812
+    },
+    {
+      "path": "icons.js",
+      "sha256": "9b53eed0f9bde24667b225fa2eb76d4a18d11c693d42fee3ce248c6896a92c9a",
+      "size": 1214
+    },
+    {
+      "path": "index.html",
+      "sha256": "b946aea420581f035480e1d58beb02a35737af9dd697e81ebc5f37910a8dc646",
+      "size": 2676
+    },
+    {
+      "path": "interactions.js",
+      "sha256": "7cf2abd7f777b35bc43a87b2eea8b1a35e516bc800f945f2b257f644f64327f7",
+      "size": 4486
+    },
+    {
+      "path": "learn/dms/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "learn/growth/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "learn/kksb-agreements/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "learn/kksb-meeting/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "learn/kksb-preparation/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "learn/onboarding/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "learn/registry/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "learn/satellites/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "learn/self-employed/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "learn/team/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "learn/value/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "lisa-chat.css",
+      "sha256": "59fa96ccc8b32b1598db7692a4b08885427059d98e1fe6d0c0681c00413c29ae",
+      "size": 13494
+    },
+    {
+      "path": "lisa-chat.js",
+      "sha256": "5778a44321925659818b212473b7a479fe4bacc500048722b0993c4896e5aa4a",
+      "size": 19410
+    },
+    {
+      "path": "lisa-format.js",
+      "sha256": "974f43f5c8ece4d5e450332ee7b53bf0f439a999f969fa2cc6d95ff815ef06f4",
+      "size": 1618
+    },
+    {
+      "path": "lisa-math.js",
+      "sha256": "9d544065aa7fec8e0f1e5c29567f5aa7352d23ca385e9fce8082b78aa35aed96",
+      "size": 1948
+    },
+    {
+      "path": "lisa-stream.js",
+      "sha256": "efcb23d5bf3e9a66952e535f388994f1eafe117f71444f8e9b7fa80d99555e51",
+      "size": 2417
+    },
+    {
+      "path": "material-catalog.js",
+      "sha256": "f456892ae621d165d25247ef6143bf39a5ecda6389f8528fa6414a7ebca13210",
+      "size": 11856
+    },
+    {
+      "path": "materials/index.html",
+      "sha256": "d2f193f1fea3a51cf8a4ae55ed1d5e215acb1ed75416bbd144599e3a625f89f4",
+      "size": 2676
+    },
+    {
+      "path": "mmb-materials.js",
+      "sha256": "0e995bbd751f1f21abbe9cf48dc642149a1a1b9c449c0c8c0a31257777ee66f5",
+      "size": 11019
+    },
+    {
+      "path": "rgs-materials.js",
+      "sha256": "cba29f00df385a5e4abb4a49cbfbe9ab3732b6bd3d97347bcadf2064def13f71",
+      "size": 4130
+    },
+    {
+      "path": "segments.js",
+      "sha256": "76a5cea95a7fdaa0f1d1bb66b53303f2d44d11c5f51dffe82f3c314f84002dd1",
+      "size": 3283
+    },
+    {
+      "path": "style.css",
+      "sha256": "94f5f79ab32a08a4280113d2216405238c6c740804ab8586c68a895eeadfbbd5",
+      "size": 174376
+    },
+    {
+      "path": "training-links.js",
+      "sha256": "30091ec258900e69304effa5fdac04ca4bf9096f253dff990f52e357ecb11884",
+      "size": 9693
+    }
+  ],
+  "cases": {
+    "kksb": {
+      "version": "kksb-20261015-2",
+      "questions": [
+        {
+          "id": "prep-1",
+          "options": 3,
+          "required": false,
+          "correct": [
+            0
+          ]
+        },
+        {
+          "id": "prep-3",
+          "options": 6,
+          "required": true,
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "prep-2",
+          "options": 4,
+          "required": true,
+          "correct": [
+            0
+          ]
+        },
+        {
+          "id": "prep-4",
+          "options": 3,
+          "required": false,
+          "correct": [
+            0
+          ]
+        },
+        {
+          "id": "prep-5",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "meeting-1",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0
+          ]
+        },
+        {
+          "id": "meeting-2",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0,
+            3
+          ]
+        },
+        {
+          "id": "meeting-3",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "meeting-4",
+          "options": 3,
+          "required": false,
+          "correct": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "agreement-1",
+          "options": 5,
+          "required": false,
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "agreement-2",
+          "options": 3,
+          "required": false,
+          "correct": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "quiz": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    "rgs": {
+      "version": "rgs-20261015-2",
+      "questions": [
+        {
+          "id": "prep-1",
+          "options": 4,
+          "required": false,
+          "correct": [
+            1
+          ]
+        },
+        {
+          "id": "prep-2",
+          "options": 4,
+          "required": false,
+          "correct": [
+            2
+          ]
+        },
+        {
+          "id": "prep-3",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0
+          ]
+        },
+        {
+          "id": "prep-4",
+          "options": 4,
+          "required": false,
+          "correct": [
+            2
+          ]
+        },
+        {
+          "id": "prep-5",
+          "options": 4,
+          "required": false,
+          "correct": [
+            1
+          ]
+        },
+        {
+          "id": "prep-6",
+          "options": 4,
+          "required": false,
+          "correct": [
+            2
+          ]
+        },
+        {
+          "id": "meeting-1",
+          "options": 4,
+          "required": false,
+          "correct": [
+            1
+          ]
+        },
+        {
+          "id": "meeting-2",
+          "options": 4,
+          "required": false,
+          "correct": [
+            2
+          ]
+        },
+        {
+          "id": "meeting-3",
+          "options": 4,
+          "required": false,
+          "correct": [
+            3
+          ]
+        },
+        {
+          "id": "meeting-4",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0
+          ]
+        },
+        {
+          "id": "meeting-5",
+          "options": 4,
+          "required": false,
+          "correct": [
+            2
+          ]
+        },
+        {
+          "id": "agreement-1",
+          "options": 4,
+          "required": false,
+          "correct": [
+            2
+          ]
+        },
+        {
+          "id": "agreement-2",
+          "options": 4,
+          "required": false,
+          "correct": [
+            1
+          ]
+        }
+      ],
+      "quiz": []
+    },
+    "mmb": {
+      "version": "mmb-20261020-1",
+      "questions": [
+        {
+          "id": "prep-1",
+          "options": 3,
+          "required": false,
+          "correct": [
+            0
+          ]
+        },
+        {
+          "id": "prep-2",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0
+          ]
+        },
+        {
+          "id": "prep-3",
+          "options": 7,
+          "required": false,
+          "correct": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": "prep-4",
+          "options": 3,
+          "required": false,
+          "correct": [
+            2
+          ]
+        },
+        {
+          "id": "prep-5",
+          "options": 6,
+          "required": false,
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "meeting-1",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0,
+            3
+          ]
+        },
+        {
+          "id": "meeting-2",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0
+          ]
+        },
+        {
+          "id": "meeting-3",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0,
+            3
+          ]
+        },
+        {
+          "id": "meeting-4",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "meeting-5",
+          "options": 3,
+          "required": false,
+          "correct": [
+            0,
+            2
+          ]
+        },
+        {
+          "id": "agreement-1",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "agreement-2",
+          "options": 4,
+          "required": false,
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "quiz": []
+    }
+  }
+}
