@@ -1,7 +1,7 @@
 import {feedbackConfirmed,awaitingFeedback} from './feedback-state.js?v=20261022-3';
 import {completionCounterMarkup,feedbackMarkup,initCompletion} from './completion.js?v=20261022-7';
 import {scenario,caseUrl,attemptKey,total,readAttempt,quizPassed} from './business-data.js?v=20261021-2';
-import {linksMarkup} from './training-links.js?v=20261022-5';
+import {linksMarkup} from './training-links.js?v=20261028-2';
 import {openMemory,openBonusQuiz,preparationDownloads} from './business-extras.js?v=20261021-2';
 import {kksbResources} from './material-catalog.js?v=20261021-2';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
