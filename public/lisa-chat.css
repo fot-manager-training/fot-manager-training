@@ -37,3 +37,27 @@ body.lisa-chat-open{overflow:hidden}.lisa-shell{--chat-line:#364132;position:fix
 .lisa-message.is-streaming>div::after{content:'';display:inline-block;width:6px;height:1em;margin-left:5px;background:#c8f53a;vertical-align:-.1em;animation:lisa-pulse .85s ease infinite}.lisa-incomplete{display:block;margin-top:12px;color:#b4c2a5;font-size:10px}@media(prefers-reduced-motion:reduce){.lisa-message.is-streaming>div::after{animation:none}}
 
 .lisa-template-label{display:flex!important;align-items:center;flex-wrap:wrap;gap:8px;font-size:11px!important;color:#b4c6a8}.lisa-response-mode{max-width:210px;border:1px solid #63873e;border-radius:10px;background:#1b2b1b;color:#eaf5de;padding:9px 12px;font:inherit;font-size:12px;outline:none}.lisa-response-mode:focus-visible{outline:2px solid #c8f53a;outline-offset:3px}.lisa-message h3{margin:20px 0 10px;color:#d1f17b;font-family:inherit;font-size:18px;font-weight:700;line-height:1.4;letter-spacing:0;text-transform:none}.lisa-message h3:first-child{margin-top:0}.lisa-message p{margin:7px 0;line-height:1.7}.lisa-message a{color:#c8f53a;text-decoration:underline;text-underline-offset:3px}.lisa-reply-table{max-width:100%;overflow-x:auto;margin:14px 0;border:1px solid #456238;border-radius:12px}.lisa-reply-table table{width:100%;min-width:600px;border-collapse:collapse;white-space:normal;font-size:12px;line-height:1.6}.lisa-reply-table th,.lisa-reply-table td{padding:12px;vertical-align:top;border:1px solid #3b5234;text-align:left}.lisa-reply-table th{color:#d7ef9d;background:#22391e;font-weight:700}@media(max-width:760px){.lisa-template-label{max-width:100%;flex-basis:100%}.lisa-response-mode{max-width:100%}.lisa-message h3{font-size:16px}}
+.lisa-composer>.lisa-attachment-drafts{display:grid;gap:7px;max-height:210px;overflow:auto;width:100%;margin:0 0 8px}
+.lisa-composer>.lisa-attachment-drafts:empty{display:none}
+.lisa-composer.is-file-dragover{outline:2px solid #c8f53a;outline-offset:3px;background:#25371e}
+.lisa-composer .lisa-attach{display:inline-flex;align-items:center;gap:6px;flex:none;min-height:38px;padding:7px 10px;border:1px solid #647f38;border-radius:10px;background:#25321d;color:#d9efbb;font-size:12px}
+.lisa-attach svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.lisa-composer .lisa-attachment-draft{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 8px;width:100%;padding:9px 11px;background:#172310;border:1px solid #4b6833;border-radius:11px;box-sizing:border-box}
+.lisa-composer .lisa-attachment-draft>div{display:grid;gap:4px;min-width:0}
+.lisa-attachment-draft strong{font-size:12px;overflow-wrap:anywhere;color:#e9f4db}
+.lisa-attachment-draft small,.lisa-attachment-draft p{font:11px/1.5 Manrope,system-ui,sans-serif;color:#b6c9a3;margin:0}
+.lisa-composer .lisa-attachment-draft>button{align-self:start;min-width:28px;min-height:28px;padding:3px 6px;border-radius:7px;background:transparent;color:#c9daaf;border:0}
+.lisa-composer .lisa-attachment-draft.is-error{border-color:#ba625c}
+.lisa-composer .lisa-attachment-draft.is-error small{color:#f1aaa2}
+.lisa-attachment-draft details{grid-column:1/-1;color:#c8f53a;font-size:11px}
+.lisa-attachment-draft details summary{cursor:pointer;padding:3px 0}
+.lisa-composer .lisa-attachment-draft textarea{width:100%;min-height:95px;max-height:160px;margin-top:7px;resize:vertical;background:#10170d;font-size:12px;line-height:1.5;border:1px solid #476530;border-radius:7px;padding:8px;box-sizing:border-box;color:#e9f4db}
+.lisa-message-attachment{border:1px solid #4c6439;border-radius:10px;padding:9px 11px;margin-top:9px;background:#192414}
+.lisa-message-attachment summary{cursor:pointer;overflow-wrap:anywhere;font-size:12px}
+.lisa-message-attachment small{display:block;color:#9fb68b;font-size:10px;margin:3px 0}
+.lisa-message-attachment pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:220px;overflow:auto;font:11px/1.6 system-ui,sans-serif}
+.lisa-message-attachment p{font-size:11px;color:#b6c9a3}
+.lisa-file-source{display:block;padding:5px 0;font-size:11px;color:#b6c9a3;overflow-wrap:anywhere}
+@media(max-width:760px){.lisa-composer .lisa-attach span{display:none}.lisa-composer .lisa-attach{min-width:36px;justify-content:center;padding:6px}.lisa-composer>.lisa-attachment-drafts{max-height:150px}.lisa-composer .lisa-template-label{font-size:10px;flex:1;min-width:0}.lisa-composer .lisa-response-mode{max-width:100%}}
+@media(max-width:760px){.lisa-composer .lisa-template-label{flex-direction:column;align-items:flex-start;gap:2px}.lisa-composer .lisa-response-mode{width:100%;min-width:0}.lisa-composer>.lisa-attachment-drafts{max-height:min(150px,20dvh)}}
+@media(max-height:600px){.lisa-composer>.lisa-attachment-drafts{max-height:80px}}

@@ -1,13 +1,13 @@
 {
-  "release": "salary-comparison-20261028",
-  "source_commit": "37e8394fafe5d031b25e75b11e16c02f8a18938f",
+  "release": "attachments-20261028",
+  "source_commit": "8d91797b13b1b61b8d070e859ea08386092dc705",
   "cloud_origin": "https://fot-practice-km.c8cpv86h5k.chatgpt.site",
   "target_origin": "https://fot-manager-training.ru",
   "files": [
     {
       "path": "app.js",
-      "size": 14601,
-      "sha256": "ac0295e31dc6de5453ef5f699a00ee7e9b41ba166a7e9d61088f3d2407ab959c"
+      "size": 14611,
+      "sha256": "fb93e62b7f2d3d9c0159d959d9fd453eefe12eebc1be94b9cf31d1be33267578"
     },
     {
       "path": "assets/BufferGeometryUtils.js",
@@ -326,48 +326,48 @@
     },
     {
       "path": "cases/01/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "cases/02/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "cases/03/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "cases/04/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "cases/05/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "cases/06/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "cases/kksb/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "cases/mmb/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "cases/rgs/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "completion.js",
@@ -376,13 +376,13 @@
     },
     {
       "path": "entry.js",
-      "size": 476,
-      "sha256": "56e795899ff5a3db344920a4baf3157eb409134e695ca26995562d75d26c781f"
+      "size": 486,
+      "sha256": "bd5b52cd45e447ba919d11336460345985583927ee8453c1cf1036a97c9f60db"
     },
     {
       "path": "final/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "fonts.css",
@@ -401,8 +401,8 @@
     },
     {
       "path": "index.html",
-      "size": 2676,
-      "sha256": "745e7f57812b2fb9c9e7615b37910387b4ad459599cdeb2f103f8d3d89d11762"
+      "size": 2696,
+      "sha256": "ed87c8c30f7709f3735bc48637e62315057afba52d83a00a8dc15cb0969a58a3"
     },
     {
       "path": "interactions.js",
@@ -411,68 +411,73 @@
     },
     {
       "path": "learn/dms/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "learn/growth/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "learn/kksb-agreements/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "learn/kksb-meeting/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "learn/kksb-preparation/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "learn/onboarding/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "learn/registry/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "learn/satellites/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "learn/self-employed/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "learn/team/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "learn/value/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+    },
+    {
+      "path": "lisa-attachments.js",
+      "size": 8157,
+      "sha256": "7361948c33c13aa9167531083ecfa04a2b3a111765acc2546cf5610c0d60f233"
     },
     {
       "path": "lisa-chat.css",
-      "size": 13494,
-      "sha256": "59fa96ccc8b32b1598db7692a4b08885427059d98e1fe6d0c0681c00413c29ae"
+      "size": 16570,
+      "sha256": "b0ca4357c8db8310ac3dfc0a5d5b7893293c995f5801c26274b5f0cbac7dfa72"
     },
     {
       "path": "lisa-chat.js",
-      "size": 21066,
-      "sha256": "6fee12ad85bd3476b05828d5fdb4d06e17268c146baddf4e381416b8bf640495"
+      "size": 22728,
+      "sha256": "475fa117dc868d6a555831cdc3a1d5d9d810c4fe0f07d5a900298f569577671e"
     },
     {
       "path": "lisa-format.js",
@@ -496,8 +501,8 @@
     },
     {
       "path": "materials/index.html",
-      "size": 2676,
-      "sha256": "98267df758ea0203c03f0da19f1778b315c31badb80c45768f8ee3ab1a6ae40c"
+      "size": 2686,
+      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
     },
     {
       "path": "mmb-materials.js",
@@ -523,6 +528,23 @@
       "path": "training-links.js",
       "size": 9693,
       "sha256": "30091ec258900e69304effa5fdac04ca4bf9096f253dff990f52e357ecb11884"
+    }
+  ],
+  "backend": [
+    {
+      "path": "server.py",
+      "size": 6977,
+      "sha256": "a86dd95936085b0f7b330fb404cb599c38b24de6fdfa6c3e89b023357aa2307e"
+    },
+    {
+      "path": "upload_extract.py",
+      "size": 12342,
+      "sha256": "8f1bdbe3b47d7a09c598942ed10193233000703f7644e67354f5f177373cf40d"
+    },
+    {
+      "path": "limit_exec.py",
+      "size": 531,
+      "sha256": "79190b35a36a7b060e2f41e7333f805a07370a20c73bf11ef2ca3437d4031fad"
     }
   ],
   "cases": {
