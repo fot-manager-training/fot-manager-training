@@ -4,4 +4,4 @@ const routeSegment=location.pathname.match(/^\/cases\/(kksb|rgs|mmb)\/?$/)?.[1];
 let selected=!force&&routeSegment?chooseSegment(routeSegment):getSegment();
 if(!selected||force){selected=await segmentPicker();if(force)history.replaceState(null,'','/');}
 chooseSegment(selected.id);
-await import('./app.js?v=20261023-1');
+await import('./app.js?v=20261028-1');
