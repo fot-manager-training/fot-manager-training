@@ -27,11 +27,11 @@ import urllib.error
 
 CLOUD = 'https://fot-practice-km.c8cpv86h5k.chatgpt.site'
 DOMAIN = 'https://fot-manager-training.ru'
-SOURCE_REF = '93a7e354cc9a504bb35e84f005f48a72e9f33644'
+SOURCE_REF = 'b3c27e6b440bb3b29d302171647a30e0bec8df75'
 RAW = 'https://raw.githubusercontent.com/fot-manager-training/fot-manager-training/' + SOURCE_REF
 FILES = RAW + '/public/'
 MANIFEST_URL = RAW + '/manifest.json'
-MANIFEST_SHA256 = 'a0a7dbd02003245b20054b1f6f61a08721df3f424968b51967327e2c27e4167a'
+MANIFEST_SHA256 = '458a41d0ff06cc3b201880ddecf9c829e03ae7bc9f9954352366b9ce488ad91e'
 BASE = Path('/opt/fot-manager-training')
 DATA = Path('/var/lib/fot-manager-training')
 BACKUPS = Path('/var/backups/fot-manager-training')
@@ -430,6 +430,11 @@ def install():
         command('nginx','-t')
         command('systemctl','reload','nginx')
         raise
+    try:
+        command('systemctl','start','--no-block','fot-lisa-refresh.service')
+        print('Company and employee bank conditions refresh started in the background.',flush=True)
+    except Exception:
+        print('Initial bank refresh could not start; the daily timer remains enabled.',flush=True)
     print('READY:', DOMAIN)
     print('Lisa uses DeepSeek directly on this domain. Photo uploads, OCR and streaming are enabled.')
     print('Statistics preserved:', json.dumps(after, ensure_ascii=False))
