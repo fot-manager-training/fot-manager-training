@@ -34,6 +34,7 @@ export function createTextReveal(update,{reducedMotion=false,requestFrame=global
  }
  return {
   append(part){if(stopped)return;text+=part;if(frame===null)frame=requestFrame(paint)},
+  reset(){if(frame!==null)cancelFrame(frame);frame=null;text='';shown=0;last=0;stopped=false;update('');settle()},
   finished(){return shown===text.length?Promise.resolve():new Promise(resolve=>waiting.push(resolve))},
   stop(){stopped=true;if(frame!==null)cancelFrame(frame);frame=null;shown=text.length;update(text);settle()}
  };
