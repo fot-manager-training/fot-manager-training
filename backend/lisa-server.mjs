@@ -51,7 +51,7 @@ export async function main(){
  const {default:worker,refreshBankCatalog}=await import('./lisa-worker.mjs');
  const DB=sqliteDatabase();await DB.seed(JSON.parse(readFileSync(here+'bank-seed.json','utf8')));
  const env={DB,LISA_PROVIDER:'deepseek',DEEPSEEK_MODEL:'deepseek-chat',DEEPSEEK_API_KEY:process.env.DEEPSEEK_API_KEY||''};
- if(process.argv.includes('--refresh')){const result=await refreshBankCatalog(env);console.log(JSON.stringify({status:result.status,banks:result.banks?.map(b=>({id:b.id,status:b.status,checkedAt:b.checkedAt}))}));if(result.status!==200)process.exitCode=1;return}
+ if(process.argv.includes('--refresh')){const result=await refreshBankCatalog(env);console.log(JSON.stringify({status:result.status,banks:result.banks?.map(b=>({id:b.id,status:b.status,checkedAt:b.checkedAt,audiences:Object.fromEntries(Object.entries(b.audiences).map(([key,r])=>[key,{checkedAt:r.checkedAt,status:r.status}]))}))}));if(result.status!==200)process.exitCode=1;return}
  const port=process.env.LISA_PORT===undefined?8767:Number(process.env.LISA_PORT);
  if(!Number.isInteger(port)||port<0||port>65535)throw Error('LISA_PORT_INVALID');
  const server=startLisaServer({worker,env,port});server.once('listening',()=>console.log('Lisa DeepSeek API ready on loopback port '+server.address().port+'.'));

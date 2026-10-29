@@ -1,5 +1,5 @@
-import {lisaApiBase,lisaRequest} from './lisa-transport.js?v=20261029-domain-ui';
-import {createAttachmentManager,attachmentMarkup,packAttachmentMessages} from './lisa-attachments.js?v=20261029-domain-ui';
+import {lisaApiBase,lisaRequest} from './lisa-transport.js?v=20261029-audiences';
+import {createAttachmentManager,attachmentMarkup,packAttachmentMessages} from './lisa-attachments.js?v=20261029-audiences';
 import {renderLisaMessage} from './lisa-format.js?v=20261023-1';
 import {readEventStream,createTextReveal} from './lisa-stream.js?v=20261021-4';
 import {calculateBrief} from './lisa-math.js?v=20261028-1';
@@ -10,7 +10,7 @@ const icon='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 4 5 3 3-2 3 
 const money=x=>new Intl.NumberFormat('ru-RU',{maximumFractionDigits:2,style:'currency',currency:'RUB'}).format(x);
 const date=t=>new Date(t).toLocaleString('ru-RU',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'});
 const fields=[['company','Компания','text'],['industry','Отрасль','text'],['contact','С кем встречаемся','text'],['bank','Банк-конкурент','text'],['staff','Количество сотрудников','number'],['payroll','ФОТ за месяц, ₽','number'],['commission','Комиссия текущего банка, %','number'],['sberCommission','Предложение КМ: комиссия Сбера, %','number'],['cashRate','Ставка кэшбэка, %','number'],['cashBase','База кэшбэка за месяц, ₽','number'],['cashCap','Месячный лимит кэшбэка, ₽','number']];
-const greeting='Здравствуйте! Я Лиса, помощник Сбера по сравнению зарплатных проектов. Сравню условия банка-конкурента с нашими, подготовлю краткую справку и скрипт для возражений. Назовите банк и задайте вопрос. Условия можно ввести самостоятельно или написать «стандартные» — возьму последние доступные данные из базы с датой сбора. Если мы готовы изменить условия под клиента, опишите изменения.';
+const greeting='Здравствуйте! Я Лиса, помощник Сбера по сравнению зарплатных проектов. Сравню условия банка-конкурента с нашими отдельно для ЮЛ и ФЛ, подготовлю краткую справку и скрипт для возражений. Назовите банк и задайте вопрос. Условия можно ввести самостоятельно или написать «стандартные» — возьму последние доступные данные из базы с датой сбора. Если мы готовы изменить условия под клиента, опишите изменения.';
 const starters=['Сравни наши условия с Газпромбанком. У конкурента стандартные условия.','Сравни Сбер и ВТБ: условия клиента опишу самостоятельно.','Готовы изменить наши условия под клиента. Помоги сравнить варианты.','У конкурента выше кэшбэк. Чем из наших условий можно компенсировать разницу?'];
 export function initLisaChat(){
  if(document.querySelector('.lisa-shell'))return;
