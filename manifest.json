@@ -1,6 +1,6 @@
 {
   "release": "deepseek-domain-20261029",
-  "source_commit": "f65e30fb8375826b859e9a44c62ce98cd436fb6c",
+  "source_commit": "05b78f5315961797f736c219275a319b020c96f5",
   "cloud_origin": "https://fot-practice-km.c8cpv86h5k.chatgpt.site",
   "target_origin": "https://fot-manager-training.ru",
   "files": [
@@ -553,8 +553,8 @@
     },
     {
       "path": "lisa-server.mjs",
-      "size": 4921,
-      "sha256": "eea1bcf39239972661424e4d908ec15681cbdd1743c5a1ff2a3104efbf026814"
+      "size": 5285,
+      "sha256": "6830ee42b86b4db3cd45120d2b2e47e39aa53a0f43899ef3ef6bf9b69ea584af"
     },
     {
       "path": "lisa-db.py",

@@ -1,7 +1,7 @@
 import http from 'node:http';
 import {once} from 'node:events';
 import {spawn} from 'node:child_process';
-import {readFileSync} from 'node:fs';
+import {readFileSync,realpathSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
 import {webcrypto} from 'node:crypto';
 
@@ -52,7 +52,9 @@ export async function main(){
  const DB=sqliteDatabase();await DB.seed(JSON.parse(readFileSync(here+'bank-seed.json','utf8')));
  const env={DB,LISA_PROVIDER:'deepseek',DEEPSEEK_MODEL:'deepseek-chat',DEEPSEEK_API_KEY:process.env.DEEPSEEK_API_KEY||''};
  if(process.argv.includes('--refresh')){const result=await refreshBankCatalog(env);console.log(JSON.stringify({status:result.status,banks:result.banks?.map(b=>({id:b.id,status:b.status,checkedAt:b.checkedAt}))}));if(result.status!==200)process.exitCode=1;return}
- const server=startLisaServer({worker,env});server.once('listening',()=>console.log('Lisa DeepSeek API ready on loopback.'));
+ const port=process.env.LISA_PORT===undefined?8767:Number(process.env.LISA_PORT);
+ if(!Number.isInteger(port)||port<0||port>65535)throw Error('LISA_PORT_INVALID');
+ const server=startLisaServer({worker,env,port});server.once('listening',()=>console.log('Lisa DeepSeek API ready on loopback port '+server.address().port+'.'));
  for(const signal of ['SIGTERM','SIGINT'])process.once(signal,()=>server.close(()=>process.exit(0)));
 }
-if(process.argv[1]&&fileURLToPath(import.meta.url)===process.argv[1])main().catch(()=>{console.error('Lisa startup failed. Check runtime configuration.');process.exitCode=1});
+if(process.argv[1]&&realpathSync(fileURLToPath(import.meta.url))===realpathSync(process.argv[1]))main().catch(error=>{const code=String(error?.code||error?.message||'STARTUP_FAILED');console.error('Lisa startup failed: '+(/^[A-Z0-9_]+$/.test(code)?code:'STARTUP_FAILED')+'. Check runtime configuration.');process.exitCode=1});
