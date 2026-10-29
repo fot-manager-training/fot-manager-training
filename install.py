@@ -27,11 +27,11 @@ import urllib.error
 
 CLOUD = 'https://fot-practice-km.c8cpv86h5k.chatgpt.site'
 DOMAIN = 'https://fot-manager-training.ru'
-SOURCE_REF = 'bcee3e4ffb39e58a96c00ce47fe8beac4889d05f'
+SOURCE_REF = '693664298b587bee93c8ee82e3da84673eaa8368'
 RAW = 'https://raw.githubusercontent.com/fot-manager-training/fot-manager-training/' + SOURCE_REF
 FILES = RAW + '/public/'
 MANIFEST_URL = RAW + '/manifest.json'
-MANIFEST_SHA256 = '47fb40f781921a72cbc5f11f5220603b4220ae9a90b1840b0085e9b8c3c2d604'
+MANIFEST_SHA256 = '9c9b927f988b215853e347ce45f790a68835d6b43cf0bda9c163ef33345cb192'
 BASE = Path('/opt/fot-manager-training')
 DATA = Path('/var/lib/fot-manager-training')
 BACKUPS = Path('/var/backups/fot-manager-training')
@@ -270,7 +270,7 @@ ProtectHome=true
 ReadWritePaths=/var/lib/fot-manager-training
 '''
     LISA_UNIT.write_text(common+'ExecStart='+node+' /opt/fot-manager-training/current/lisa-server.mjs\nRestart=on-failure\nRestartSec=3\n[Install]\nWantedBy=multi-user.target\n')
-    LISA_REFRESH_UNIT.write_text(common+'Type=oneshot\nExecStart='+node+' /opt/fot-manager-training/current/lisa-server.mjs --refresh\nTimeoutStartSec=240\n')
+    LISA_REFRESH_UNIT.write_text(common+'Type=oneshot\nExecStart='+node+' /opt/fot-manager-training/current/lisa-server.mjs --refresh\nTimeoutStartSec=600\n')
     LISA_TIMER.write_text('''[Unit]
 Description=Daily Lisa bank catalogue refresh
 [Timer]
