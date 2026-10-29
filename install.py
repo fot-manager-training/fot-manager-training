@@ -27,11 +27,11 @@ import urllib.error
 
 CLOUD = 'https://fot-practice-km.c8cpv86h5k.chatgpt.site'
 DOMAIN = 'https://fot-manager-training.ru'
-SOURCE_REF = '693664298b587bee93c8ee82e3da84673eaa8368'
+SOURCE_REF = '138f28ea66cdb093f604cd3ba6c46fa7617d85c8'
 RAW = 'https://raw.githubusercontent.com/fot-manager-training/fot-manager-training/' + SOURCE_REF
 FILES = RAW + '/public/'
 MANIFEST_URL = RAW + '/manifest.json'
-MANIFEST_SHA256 = '9c9b927f988b215853e347ce45f790a68835d6b43cf0bda9c163ef33345cb192'
+MANIFEST_SHA256 = 'a67580fe504a8ce13ea3513d2c84ef1f0f42d2401cd3d3bd90b3b8c328109680'
 BASE = Path('/opt/fot-manager-training')
 DATA = Path('/var/lib/fot-manager-training')
 BACKUPS = Path('/var/backups/fot-manager-training')
