@@ -1,8 +1,8 @@
-import {cleanLisaReply,hasAnswerContent} from './lisa-reply.js?v=20261029-reliable';
-import {lisaApiBase,lisaRequest} from './lisa-transport.js?v=20261029-reliable';
-import {createAttachmentManager,attachmentMarkup,packAttachmentMessages} from './lisa-attachments.js?v=20261029-reliable';
+import {cleanLisaReply,hasAnswerContent} from './lisa-reply.js?v=20261029-direct';
+import {lisaApiBase,lisaRequest} from './lisa-transport.js?v=20261029-direct';
+import {createAttachmentManager,attachmentMarkup,packAttachmentMessages} from './lisa-attachments.js?v=20261029-direct';
 import {renderLisaMessage} from './lisa-format.js?v=20261023-1';
-import {readEventStream,createTextReveal} from './lisa-stream.js?v=20261029-reliable';
+import {readEventStream,createTextReveal} from './lisa-stream.js?v=20261029-direct';
 import {calculateBrief} from './lisa-math.js?v=20261028-1';
 const API=lisaApiBase(location);
 const KEY='fot-lisa-kksb-chats-v1';
