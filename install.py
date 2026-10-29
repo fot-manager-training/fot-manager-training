@@ -27,11 +27,11 @@ import urllib.error
 
 CLOUD = 'https://fot-practice-km.c8cpv86h5k.chatgpt.site'
 DOMAIN = 'https://fot-manager-training.ru'
-SOURCE_REF = '1975e2e01f11ae4e6ca1e53ff9c35061c487a6f0'
+SOURCE_REF = '93a7e354cc9a504bb35e84f005f48a72e9f33644'
 RAW = 'https://raw.githubusercontent.com/fot-manager-training/fot-manager-training/' + SOURCE_REF
 FILES = RAW + '/public/'
 MANIFEST_URL = RAW + '/manifest.json'
-MANIFEST_SHA256 = '4c1f250b43e6dd2be41143036e7000f3b4e6e71071417ed88f26f83d5c123fba'
+MANIFEST_SHA256 = 'a0a7dbd02003245b20054b1f6f61a08721df3f424968b51967327e2c27e4167a'
 BASE = Path('/opt/fot-manager-training')
 DATA = Path('/var/lib/fot-manager-training')
 BACKUPS = Path('/var/backups/fot-manager-training')
@@ -213,7 +213,9 @@ def ensure_node():
         try:result=subprocess.run([executable,'-e',"if(parseInt(process.versions.node)<18||typeof fetch!=='function')process.exit(1)"],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
         except OSError:return False
         return result.returncode==0
-    for candidate in [str(BASE/'runtime/node'),shutil.which('node')]:
+    system_node=shutil.which('node')
+    if system_node and any(parent in Path(system_node).resolve().parents for parent in [Path('/root'),Path('/home')]):system_node=None
+    for candidate in [str(BASE/'runtime/node'),'/usr/bin/node','/usr/local/bin/node',system_node]:
         if supported(candidate):NODE_BINARY=candidate;return
     # Use an official LTS binary when the OS repository offers an obsolete Node.
     arch={'x86_64':'x64','aarch64':'arm64'}.get(platform.machine())
@@ -289,7 +291,9 @@ def wait_lisa():
             if health.get('ready') and health.get('provider')=='deepseek' and health.get('knowledge',{}).get('chunks',0)>0:return
         except Exception:pass
         time.sleep(1)
-    raise RuntimeError('Local DeepSeek agent failed its health check; restoring previous release')
+    try:state=command('systemctl','show',LISA_SERVICE,'--property=ActiveState,SubState,ExecMainStatus,Result').replace('\n','; ')
+    except Exception:state='Service status unavailable'
+    raise RuntimeError('Local DeepSeek agent failed its health check ('+state+'); restoring previous release')
 
 
 def command(*args):
