@@ -1,0 +1,377 @@
+[
+  {
+    "id": "vtb",
+    "name": "ВТБ",
+    "sourceUrl": "https://www.vtb.ru/krupnyj-biznes/zarplatniy-proekt/",
+    "scope": "Крупный бизнес",
+    "checkedAt": null,
+    "status": "refresh_failed",
+    "error": "HTTP_526",
+    "evidence": [],
+    "documents": [],
+    "stale": true,
+    "lastAttemptAt": "2026-10-29T04:58:37.829Z"
+  },
+  {
+    "id": "alfa",
+    "name": "Альфа-Банк",
+    "sourceUrl": "https://alfabank.ru/corporate/salaryproject/",
+    "scope": "Корпоративные клиенты",
+    "checkedAt": null,
+    "status": "refresh_failed",
+    "error": "HTTP_526",
+    "evidence": [],
+    "documents": [],
+    "stale": true,
+    "lastAttemptAt": "2026-10-29T04:58:37.829Z"
+  },
+  {
+    "id": "tbank",
+    "name": "Т-Банк",
+    "sourceUrl": "https://www.tbank.ru/corporate/payout/salary/",
+    "scope": "Корпоративные клиенты",
+    "checkedAt": null,
+    "status": "refresh_failed",
+    "error": "HTTP_526",
+    "evidence": [],
+    "documents": [],
+    "stale": true,
+    "lastAttemptAt": "2026-10-29T04:58:38.955Z"
+  },
+  {
+    "id": "gpb",
+    "name": "Газпромбанк",
+    "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/",
+    "scope": "Корпоративные клиенты",
+    "checkedAt": "2026-10-29T04:58:41.129Z",
+    "status": "ok",
+    "evidence": [
+      {
+        "id": "companyFees",
+        "label": "Компания: подключение, обслуживание и выплаты",
+        "excerpts": [
+          {
+            "text": "Оставить заявку Выгодно бизнесу 0 ₽ за открытие и обслуживание Удобно бухгалтеру понятные процессы и помощь 24/7",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Для компаний Для сотрудников Для руководителей Никаких комиссий Открытие зарплатного проекта",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Выпуск и доставка карт по всей России Годовое обслуживание Начисление зарплаты",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Всё под контролем: отслеживайте статусы, комплексные проверки, управляйте ведомостями и реестрами Продуманные выплаты: смешанные ведомости, реестры распоряжения, работа с нерезидентами, р/с листы, автоформирование ПП Персонализация под вас: настраивайте роли пользователей, несколько проектов для одной компании, облачную подпись",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          }
+        ]
+      },
+      {
+        "id": "employeeCards",
+        "label": "Сотрудники: выпуск и обслуживание карт",
+        "excerpts": [
+          {
+            "text": "Оставить заявку Выгодно бизнесу 0 ₽ за открытие и обслуживание Удобно бухгалтеру понятные процессы и помощь 24/7",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Удобно бухгалтеру понятные процессы и помощь 24/7 Бонусы сотрудникам улучшенные условия по зарплатным картам Зарплатный проект Тарифы карт Документы и инструкции",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Открытие зарплатного проекта Выпуск и доставка карт по всей России Годовое обслуживание",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Выпуск и доставка карт по всей России Годовое обслуживание Начисление зарплаты",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          }
+        ]
+      },
+      {
+        "id": "cashback",
+        "label": "Кэшбэк и ограничения",
+        "excerpts": [
+          {
+            "text": "Самая выгодная зарплатная карта для массового сегмента по рейтингу Frank RG. Получайте до 10 000 кэшбэка ежемесячно Бесплатно",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "До -2% по кредитам От 7 категорий кэшбэка каждый месяц спортивные товары, АЗС текст и транспорт, ЖКХ, кафе и рестораны, фастфуд и другие",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Подробнее Повышенный лимит кэшбэка до 40 000 баллов в месяц, 1 балл=1₽",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "От 150 000 ₽ сумма покупок в месяц Кэшбэк Кэшбэк в категориях до 6%",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          }
+        ]
+      },
+      {
+        "id": "transfers",
+        "label": "Переводы, снятие и реестры в другие банки",
+        "excerpts": [
+          {
+            "text": "Бесплатно Обслуживание, выпуск стикера, переводы по реквизитам и СБП, оплата ЖКХ и пр. Снятие наличных без комиссии",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Обслуживание, выпуск стикера, переводы по реквизитам и СБП, оплата ЖКХ и пр. Снятие наличных без комиссии до 300 000 ₽ в месяц в любых банкоматах России",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Максимальный размер: 40 000 баллов или миль, где 1 балл = 1 ₽* Снятие наличных Бесплатно**",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Выплата на карты Газпромбанка без комиссии, переводить можно любую сумму. Подготовили инструкцию, как выпустить сотрудникам карты Газпромбанка. Выплата на карты других банков возможна только с расчетного счета в Газпромбанке, комиссия — 37 рублей за каждый перевод в реестре/реестре-распоряжении. .pdf",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          }
+        ]
+      },
+      {
+        "id": "operations",
+        "label": "Бухгалтерия и интеграция",
+        "excerpts": [
+          {
+            "text": "Зарплатный проект — выгода со всех сторон Преимущества для компании, бухгалтера и сотрудников Оставить заявку",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Выгодно бизнесу 0 ₽ за открытие и обслуживание Удобно бухгалтеру понятные процессы и помощь 24/7 Бонусы сотрудникам улучшенные условия по зарплатным картам",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Выпуск карт с вашим дизайном Комфорт для бухгалтера Поддержка разных форматов: загружайте файлы XLS, 1С XML, Парус, DBF, ZIP с паролем",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Комфорт для бухгалтера Поддержка разных форматов: загружайте файлы XLS, 1С XML, Парус, DBF, ZIP с паролем Всё под контролем: отслеживайте статусы, комплексные проверки, управляйте ведомостями и реестрами",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          }
+        ]
+      },
+      {
+        "id": "eligibility",
+        "label": "Условия подключения и применения",
+        "excerpts": [
+          {
+            "text": "расчетные листы. Какие условия подключения к Зарплатному проекту? Подключить Зарплатный проект и выпустить зарплатные карты можно с расчетным счетом в Газпромбанке и без него. Подключение, выпуск и обслуживание зарплатных карт бесплатные и без комиссии.",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "Да, вы можете участвовать в реферальной программе Газпромбанка, рекомендовать зарплатные карты и получать за это бонусы. Сейчас в реферальной программе действует акция и повышенные бонусы за рекомендации. Вам: до 3 000 ₽, если друг выполнит условия акции, а вы оплатите любую покупку в период действия акции.",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          },
+          {
+            "text": "• 500 ₽ за оформление карты и покупки по ней на сумму от 3 000 ₽ ** • 1 500 ₽ за зачисление на новую карту зарплаты от 15 000 ₽/мес. ** Как получить вознаграждение:",
+            "sourceUrl": "https://www.gazprombank.ru/corporate/salary-project/"
+          }
+        ]
+      }
+    ],
+    "documents": [],
+    "effectiveDateNotes": [],
+    "limitations": [
+      "Дата сбора не является датой действия тарифа.",
+      "Публичное предложение не подтверждает индивидуальные условия клиента.",
+      "Фрагменты не являются нормализованными ставками; сохраняйте условия и ограничения.",
+      "Содержимое PDF не распознано автоматически; ссылки приведены для проверки."
+    ],
+    "lastAttemptAt": "2026-10-29T04:58:39.512Z",
+    "error": null,
+    "stale": false
+  },
+  {
+    "id": "psb",
+    "name": "ПСБ",
+    "sourceUrl": "https://www.psbank.ru/corporate/cards/salary",
+    "scope": "Корпоративные клиенты",
+    "checkedAt": null,
+    "status": "refresh_failed",
+    "error": "HTTP_526",
+    "evidence": [],
+    "documents": [],
+    "stale": true,
+    "lastAttemptAt": "2026-10-29T04:58:40.097Z"
+  },
+  {
+    "id": "raif",
+    "name": "Райффайзенбанк",
+    "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/",
+    "scope": "Публичная страница малого бизнеса; применимость к ККСБ не подтверждена",
+    "checkedAt": "2026-10-29T04:58:42.810Z",
+    "status": "ok",
+    "evidence": [
+      {
+        "id": "companyFees",
+        "label": "Компания: подключение, обслуживание и выплаты",
+        "excerpts": [
+          {
+            "text": "1С:ДиректБанк Подключение Платежи",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Smartegra 1С Подключение Помощник разнесения выписок Автоматический учет сделок РЕПО Настройка автовыписок Сервисы",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Штат компании для подключения 6 секунд",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Обработка ведомости и зачисление зарплаты Доставка карт",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          }
+        ]
+      },
+      {
+        "id": "employeeCards",
+        "label": "Сотрудники: выпуск и обслуживание карт",
+        "excerpts": [
+          {
+            "text": "и зачисление зарплаты Доставка карт В офис банка или лично",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Бесплатно для сотрудников Зарплатная Кэшбэк-карта Кэшбэк 1,5%",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Бесплатное обслуживание Бесплатные",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "pdf Памятка по МСС-кодам С полными условиями по обслуживанию счетов и карт можно ознакомиться в разделе тарифов Эта страница полезна?",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          }
+        ]
+      },
+      {
+        "id": "cashback",
+        "label": "Кэшбэк и ограничения",
+        "excerpts": [
+          {
+            "text": "Бесплатно для сотрудников Зарплатная Кэшбэк-карта Кэшбэк 1,5%",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Зарплатная Кэшбэк-карта Кэшбэк 1,5% рублями за покупки",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Тарифы и условия pdf Условия по Кэшбэк-карте 183.7 Кб pdf Правила программы лояльности 288.8 Кб",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "pdf Условия по Кэшбэк-карте 183.7 Кб pdf Правила программы лояльности 288.8 Кб pdf Памятка по МСС-кодам",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          }
+        ]
+      },
+      {
+        "id": "transfers",
+        "label": "Переводы, снятие и реестры в другие банки",
+        "excerpts": [
+          {
+            "text": "Прием платежей СБП — прием платежей по QR Интернет-эквайринг",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Да Нет Кэшбэк — возврат средств, без ограничений максимальной суммы кэшбэка и условий по минимальной сумме расходной операции. За все операции, связанные с оплатой товаров или услуг в торгово-сервисных предприятиях (ТСП), начисляется кэшбэк — 1,5% от суммы расходной операции. Кэшбэк за отчетный месяц зачисляется на счет клиента в рублях с 5-го по 10-е число следующего за ним месяца. За следующие расходные операции, в том числе те, которым в ТСП присвоен четырехзначный МСС-код, кэшбэк не начисляется: денежные переводы — МСС-код 4829, 6530, 6531, 6533, 6534, 6536, 6537, 6538; комиссии, квази-кэш-операции; операции в пользу кредитных организаций",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Бесплатные переводы по номеру телефона на любую сумму осуществляются через Систему быстрых платежей до 31.08.24. Полный перечень банков — участников системы. С 01.09.24 переводы по номеру телефона — бесплатно до 100 000 ₽, свыше 100 000 ₽ — комиссия 0,5% от суммы перевода (максимум 1 500 ₽). Комиссия за снятие наличных не взимается с 1 сентября 2023 года по 15 января 2024 года. Выдача наличных без комиссии в этот период возможна только в банкоматах, расположенных на территории РФ. Действительно на 01.06.24. АО «Райффайзенбанк». Позвоните нам Для клиентов микробизнеса",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          }
+        ]
+      },
+      {
+        "id": "operations",
+        "label": "Бухгалтерия и интеграция",
+        "excerpts": [
+          {
+            "text": "Офисы и банкоматы Расчетный счет Бухгалтерия Карты Прием платежей Интеграция с банком Еще Онлайн-банк",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Расчетный счет Бухгалтерия Баланс ЕНС",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Налоговая копилка Бухгалтерия УСН Доходы Сервис для АУСН",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Pay Point — переносное устройство с NFC и QR Интеграция с банком 1С:ДиректБанк",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          }
+        ]
+      },
+      {
+        "id": "eligibility",
+        "label": "Условия подключения и применения",
+        "excerpts": [
+          {
+            "text": "Просто для бизнеса и бухгалтерии От 1-го сотрудника Штат компании",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Оформить зарплатный проект Условия подключения Регистрация компании от 6 месяцев",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          },
+          {
+            "text": "Регистрация компании от 6 месяцев Штат от 1-го сотрудника Заработная плата от 35 000 ₽ в месяц у каждого сотрудника",
+            "sourceUrl": "https://www.raiffeisen.ru/business/product/payroll/"
+          }
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "title": "с условиями обработки файлов cookie",
+        "url": "https://www.raiffeisen.ru/static/common/default/sogl_dlya_posetiteley_saita.pdf",
+        "parsed": false
+      },
+      {
+        "title": "Условия по Кэшбэк-карте",
+        "url": "https://www.raiffeisen.ru/static/common/CCard-images/cashback-card.pdf",
+        "parsed": false
+      },
+      {
+        "title": "Правила программы лояльности",
+        "url": "https://www.raiffeisen.ru/static/common/CCard-images/cashback-card-rules.pdf",
+        "parsed": false
+      }
+    ],
+    "effectiveDateNotes": [],
+    "limitations": [
+      "Дата сбора не является датой действия тарифа.",
+      "Публичное предложение не подтверждает индивидуальные условия клиента.",
+      "Фрагменты не являются нормализованными ставками; сохраняйте условия и ограничения.",
+      "Содержимое PDF не распознано автоматически; ссылки приведены для проверки."
+    ],
+    "lastAttemptAt": "2026-10-29T04:58:41.271Z",
+    "error": null,
+    "stale": false
+  },
+  {
+    "id": "domrf",
+    "name": "Банк ДОМ.РФ",
+    "sourceUrl": "https://domrfbank.ru/payroll/",
+    "scope": "Публичный зарплатный проект; индивидуальные условия ККСБ требуют проверки",
+    "checkedAt": null,
+    "status": "refresh_failed",
+    "error": "HTTP_526",
+    "evidence": [],
+    "documents": [],
+    "stale": true,
+    "lastAttemptAt": "2026-10-29T04:58:41.318Z"
+  }
+]

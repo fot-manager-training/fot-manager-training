@@ -1,13 +1,13 @@
 {
-  "release": "attachments-20261028",
-  "source_commit": "8d91797b13b1b61b8d070e859ea08386092dc705",
+  "release": "deepseek-domain-20261029",
+  "source_commit": "a9ac7406dbc5f204a1de9370bb0ce0924ce1a021",
   "cloud_origin": "https://fot-practice-km.c8cpv86h5k.chatgpt.site",
   "target_origin": "https://fot-manager-training.ru",
   "files": [
     {
       "path": "app.js",
-      "size": 14611,
-      "sha256": "fb93e62b7f2d3d9c0159d959d9fd453eefe12eebc1be94b9cf31d1be33267578"
+      "size": 14604,
+      "sha256": "0a5e200c18e2cf03e67edfc7c1561702d99e160471f0ffaea76d7ba8918a43e4"
     },
     {
       "path": "assets/BufferGeometryUtils.js",
@@ -326,48 +326,48 @@
     },
     {
       "path": "cases/01/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "cases/02/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "cases/03/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "cases/04/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "cases/05/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "cases/06/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "cases/kksb/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "cases/mmb/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "cases/rgs/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "completion.js",
@@ -376,13 +376,13 @@
     },
     {
       "path": "entry.js",
-      "size": 486,
-      "sha256": "bd5b52cd45e447ba919d11336460345985583927ee8453c1cf1036a97c9f60db"
+      "size": 479,
+      "sha256": "40bb027256deecab440ecde2f0c6a2c6b3a81002df5ea7d159e49118c64d3a4a"
     },
     {
       "path": "final/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "fonts.css",
@@ -401,8 +401,8 @@
     },
     {
       "path": "index.html",
-      "size": 2696,
-      "sha256": "ed87c8c30f7709f3735bc48637e62315057afba52d83a00a8dc15cb0969a58a3"
+      "size": 2682,
+      "sha256": "c03eea914b5e4e74888cb87cec73164df3408b84d902657483ca9be4ec59fc8b"
     },
     {
       "path": "interactions.js",
@@ -411,58 +411,58 @@
     },
     {
       "path": "learn/dms/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "learn/growth/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "learn/kksb-agreements/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "learn/kksb-meeting/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "learn/kksb-preparation/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "learn/onboarding/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "learn/registry/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "learn/satellites/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "learn/self-employed/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "learn/team/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "learn/value/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "lisa-attachments.js",
@@ -476,8 +476,8 @@
     },
     {
       "path": "lisa-chat.js",
-      "size": 22728,
-      "sha256": "475fa117dc868d6a555831cdc3a1d5d9d810c4fe0f07d5a900298f569577671e"
+      "size": 22897,
+      "sha256": "9a67e29e5d4935edeb42bd48bef7d417155259bb704ec0add90a42b5f0c0ae3f"
     },
     {
       "path": "lisa-format.js",
@@ -495,14 +495,19 @@
       "sha256": "efcb23d5bf3e9a66952e535f388994f1eafe117f71444f8e9b7fa80d99555e51"
     },
     {
+      "path": "lisa-transport.js",
+      "size": 1068,
+      "sha256": "9ef160b2348ea8fc6b38a01327f4ffdcca4b89b03ee29a3cd80a30ea85b9a4fc"
+    },
+    {
       "path": "material-catalog.js",
       "size": 11856,
       "sha256": "f456892ae621d165d25247ef6143bf39a5ecda6389f8528fa6414a7ebca13210"
     },
     {
       "path": "materials/index.html",
-      "size": 2686,
-      "sha256": "3775f662d6cb89bda0b3c928abe1ab2e4eb5240db8bebb8d1190f3f87457ffbd"
+      "size": 2679,
+      "sha256": "8e66323dcbdf46771906326a23b472edb864f588984aff8f0f0788817f221c8c"
     },
     {
       "path": "mmb-materials.js",
@@ -545,6 +550,26 @@
       "path": "limit_exec.py",
       "size": 531,
       "sha256": "79190b35a36a7b060e2f41e7333f805a07370a20c73bf11ef2ca3437d4031fad"
+    },
+    {
+      "path": "lisa-server.mjs",
+      "size": 4921,
+      "sha256": "eea1bcf39239972661424e4d908ec15681cbdd1743c5a1ff2a3104efbf026814"
+    },
+    {
+      "path": "lisa-db.py",
+      "size": 1491,
+      "sha256": "44ad3be41ca75c75c0e8aea1f8f7aab939ac2c5eab911581940412f185259669"
+    },
+    {
+      "path": "bank-seed.json",
+      "size": 23253,
+      "sha256": "510298731eac6ccaf3359deef86064431e9b46bf4e3c2b898c179b3bbe20aa55"
+    },
+    {
+      "path": "lisa-worker.mjs",
+      "size": 257720,
+      "sha256": "325af145ae46aa85443f10fe96997df53567412921e42db64331fbac2ac1e279"
     }
   ],
   "cases": {
