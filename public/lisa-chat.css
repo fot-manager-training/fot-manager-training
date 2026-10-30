@@ -61,3 +61,19 @@ body.lisa-chat-open{overflow:hidden}.lisa-shell{--chat-line:#364132;position:fix
 @media(max-width:760px){.lisa-composer .lisa-attach span{display:none}.lisa-composer .lisa-attach{min-width:36px;justify-content:center;padding:6px}.lisa-composer>.lisa-attachment-drafts{max-height:150px}.lisa-composer .lisa-template-label{font-size:10px;flex:1;min-width:0}.lisa-composer .lisa-response-mode{max-width:100%}}
 @media(max-width:760px){.lisa-composer .lisa-template-label{flex-direction:column;align-items:flex-start;gap:2px}.lisa-composer .lisa-response-mode{width:100%;min-width:0}.lisa-composer>.lisa-attachment-drafts{max-height:min(150px,20dvh)}}
 @media(max-height:600px){.lisa-composer>.lisa-attachment-drafts{max-height:80px}}
+
+/* Conversation controls stay visible above the scrolling messages. */
+.lisa-chat-actions{display:flex;align-items:center;gap:8px;padding:10px 24px;border-bottom:1px solid var(--chat-line);flex-shrink:0;background:#141d12}
+.lisa-chat-actions button{width:auto;min-height:40px;border:1px solid #4a6036;border-radius:11px;padding:9px 13px;background:#202c1a;color:#dce9cf;font-size:12px!important;line-height:1.3;text-align:center;white-space:nowrap;transition:background .2s,border-color .2s}
+.lisa-chat-actions .lisa-new{background:#c8f53a;color:#16200d;border-color:#c8f53a}
+.lisa-chat-actions .lisa-clear{margin-left:auto;color:#b9c9a8}
+.lisa-chat-actions button:disabled{opacity:.45;cursor:wait}
+.lisa-chat-actions button:hover:not(:disabled){border-color:#c8f53a}
+.lisa-chat-actions button:focus-visible,.lisa-faq-toggle:focus-visible{outline:2px solid #c8f53a;outline-offset:3px}
+.lisa-history-title{font:700 12px/1.4 Manrope,system-ui,sans-serif;margin:0 9px;color:#c3d2b4}
+.lisa-starters{grid-template-columns:minmax(0,390px)}
+.lisa-faq{padding:20px 23px;margin:0 0 24px;border:1px solid #425c30;background:#192615;border-radius:17px;animation:lisa-content-in .28s ease both;color:#bfceb1;font-size:13px;line-height:1.7}
+.lisa-faq h3{font-size:16px;color:#c8f53a;margin:0 0 13px}
+.lisa-faq ul{padding-left:19px}.lisa-faq li{margin:9px 0}.lisa-faq p{margin:14px 0 0}.lisa-faq strong{color:#e0edcf}
+.lisa-attachment-scope{font-size:10px!important;line-height:1.5!important;color:#bfd49e!important;margin:5px 0!important}
+@media(max-width:760px){.lisa-chat-actions{padding:8px 10px;gap:6px}.lisa-chat-actions button{min-height:40px;padding:8px;font-size:10px!important;flex:1;white-space:normal}.lisa-chat-actions .lisa-clear{margin-left:0}.lisa-shell.history-open .lisa-sidebar{top:118px}.lisa-faq{padding:15px;font-size:12px}.lisa-topbar{min-height:60px;box-sizing:border-box}}

@@ -1,13 +1,13 @@
 {
-  "release": "lisa-direct-dialogue-20261029",
-  "source_commit": "b1eee0a7ae84d25d10599c876769e906e2a02bec",
+  "release": "lisa-conversations-20261030",
+  "source_commit": "92546ebdeaddf2f1c01c1e7abd75d7ee9030b973",
   "cloud_origin": "https://fot-practice-km.c8cpv86h5k.chatgpt.site",
   "target_origin": "https://fot-manager-training.ru",
   "files": [
     {
       "path": "app.js",
-      "size": 14606,
-      "sha256": "e6acd2d0a7ec5f5964124e042de6f8f00aa2db2865a86cd5c9fd556f0dbda945"
+      "size": 14613,
+      "sha256": "e5d19bcb54760d8a60fb2177c7ce3054fcbb7a22d3071450e13607ba2a2d2cde"
     },
     {
       "path": "assets/BufferGeometryUtils.js",
@@ -326,48 +326,48 @@
     },
     {
       "path": "cases/01/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "cases/02/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "cases/03/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "cases/04/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "cases/05/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "cases/06/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "cases/kksb/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "cases/mmb/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "cases/rgs/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "completion.js",
@@ -376,13 +376,13 @@
     },
     {
       "path": "entry.js",
-      "size": 481,
-      "sha256": "a0f6457060abd89b2477802f267396325cad466415fab731fc42ae161afd6444"
+      "size": 488,
+      "sha256": "3c5fa5456835c2e007d541dcb0b0d36d44dacb32564eb9b9d071ec40c1238cc3"
     },
     {
       "path": "final/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "fonts.css",
@@ -401,8 +401,8 @@
     },
     {
       "path": "index.html",
-      "size": 2686,
-      "sha256": "0bbfe483cb720bdd6b99651801535817f6d27df6d514e1e755f2cb2489f53e65"
+      "size": 2700,
+      "sha256": "5e2682e2228842025ec30d4e5cf1e205b3608a4b82d782aaaf1da76fb689ad1e"
     },
     {
       "path": "interactions.js",
@@ -411,73 +411,73 @@
     },
     {
       "path": "learn/dms/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "learn/growth/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "learn/kksb-agreements/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "learn/kksb-meeting/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "learn/kksb-preparation/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "learn/onboarding/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "learn/registry/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "learn/satellites/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "learn/self-employed/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "learn/team/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "learn/value/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "lisa-attachments.js",
-      "size": 8157,
-      "sha256": "7361948c33c13aa9167531083ecfa04a2b3a111765acc2546cf5610c0d60f233"
+      "size": 8599,
+      "sha256": "44cb3186cda8ccb048c936a7bafe02a5fe27f1be736468d625a74b785214064c"
     },
     {
       "path": "lisa-chat.css",
-      "size": 16570,
-      "sha256": "b0ca4357c8db8310ac3dfc0a5d5b7893293c995f5801c26274b5f0cbac7dfa72"
+      "size": 18455,
+      "sha256": "bbf2bc988da82a1d397f9b73696182a72de8388ea638670e763241ca642cbd0d"
     },
     {
       "path": "lisa-chat.js",
-      "size": 21938,
-      "sha256": "7cf1e4063409f12998b0e3b80048eedff008aab694b12464e289fd678365d4e0"
+      "size": 24298,
+      "sha256": "9014a484f16daeec98cbc3232bf01b59b592b62a6db208a38f9fa1e981738772"
     },
     {
       "path": "lisa-format.js",
@@ -511,8 +511,8 @@
     },
     {
       "path": "materials/index.html",
-      "size": 2681,
-      "sha256": "64cf2ff560ca34c7339a7db1e081c483ee5f820a2d2f7ac2a3ae96fbee0bed07"
+      "size": 2688,
+      "sha256": "b62ef0f8c2bea8ba26940517b9a7d2700d9ab3d542cec941b6a04d50e1cfd6de"
     },
     {
       "path": "mmb-materials.js",
@@ -573,8 +573,8 @@
     },
     {
       "path": "lisa-worker.mjs",
-      "size": 305266,
-      "sha256": "6dfe33c118885af8f895430a2766792f006c5e27fb93102ed2fdb7621d3f0102"
+      "size": 308115,
+      "sha256": "df6ce28769b8b3f0567710939a902c8250a75080fd1409db7b6ec112c9163eb0"
     }
   ],
   "cases": {

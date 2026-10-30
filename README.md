@@ -1,9 +1,9 @@
-# Lisa: direct conversational answers
+# Lisa conversations and per-conversation attachments
 
-Release: lisa-direct-dialogue-20261029
+Release: lisa-conversations-20261030
 
-Automatic chat now answers the latest question directly in Markdown and recovers interrupted model output once. Explicit comparison/client-brief modes remain available. Dated official-reference conditions cover seven banks and both legal entities and individuals. Historical/reference data is not labelled as a live morning scrape.
+Explicit History / New conversation / Clear conversation controls; one local FAQ button on the welcome screen. New conversations start with no previous messages, files or client brief. Clear removes the current conversation context after confirmation and preserves other chats.
 
-Install as root using the pinned install.py on this branch. Existing statistics, visitor hash key and DeepSeek configuration are preserved. Backups and rollback are automatic.
+Uploaded text is used only within its conversation and never mutates shared RAG or bank sources. Document dates remain distinct from upload dates. Chat generation has no knowledge-base write capability.
 
-This branch provides a VPS installation package; it does not automatically update fot-manager-training.ru or change GitHub Pages/main.
+Install the pinned install.py as root on the VPS. Existing statistics and DeepSeek configuration are preserved with automatic backup and rollback. This branch does not automatically update fot-manager-training.ru or modify GitHub Pages/main.
